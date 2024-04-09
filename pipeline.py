@@ -1,6 +1,4 @@
 from PIL import Image, ImageDraw, ImageOps, ImageEnhance, ImageFont
-import boto3
-from botocore.exceptions import NoCredentialsError, PartialCredentialsError
 import pandas as pd
 import fastdeploy as fd
 import cv2
